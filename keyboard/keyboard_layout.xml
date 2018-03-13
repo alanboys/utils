@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/digitkeypadrootlayout"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00000000"
+        />
+
+    <LinearLayout
+        android:id="@+id/transpwdpdpanel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/default_background"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="@dimen/margin_15"
+            android:layout_marginBottom="@dimen/margin_15"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/password_ed"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_32"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_15"
+                android:background="@color/white"
+                android:singleLine="true"/>
+            <LinearLayout
+                android:id="@+id/lin_poup_mima"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/title_height_50"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/lin_poup_mima"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imgv_poup_mima1"
+                    style="@style/et_poup" />
+
+                <LinearLayout
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/lincolor_dbdbdb"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgv_poup_mima2"
+                    style="@style/et_poup" />
+
+                <LinearLayout
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/lincolor_dbdbdb"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgv_poup_mima3"
+                    style="@style/et_poup" />
+
+                <LinearLayout
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/lincolor_dbdbdb"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgv_poup_mima4"
+                    style="@style/et_poup" />
+
+                <LinearLayout
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/lincolor_dbdbdb"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgv_poup_mima5"
+                    style="@style/et_poup" />
+
+                <LinearLayout
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/lincolor_dbdbdb"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgv_poup_mima6"
+                    style="@style/et_poup" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_45"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/digitkeypad_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/text_color_333333"
+                android:background="@drawable/bt_home_bg"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="22sp">
+            </Button>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/lincolor_dbdbdb"
+                />
+
+            <Button
+                android:id="@+id/digitkeypad_2"
+                android:textColor="@color/text_color_333333"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bt_home_bg"
+                android:gravity="center"
+                android:text="2"
+                android:textSize="22sp">
+            </Button>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/lincolor_dbdbdb"
+                />
+
+            <Button
+                android:id="@+id/digitkeypad_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/text_color_333333"
+                android:layout_weight="1"
+                android:background="@drawable/bt_home_bg"
+                android:gravity="center"
+                android:text="3"
+                android:textSize="22sp">
+            </Button>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lincolor_dbdbdb"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_45"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/digitkeypad_4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bt_home_bg"
+                android:textColor="@color/text_color_333333"
+                android:text="4"
+                android:textSize="22sp">
+            </Button>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/lincolor_dbdbdb"
+                />
+
+            <Button
+                android:id="@+id/digitkeypad_5"
+                android:layout_width="wrap_content"
+                android:textColor="@color/text_color_333333"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bt_home_bg"
+                android:text="5"
+                android:textSize="22sp">
+            </Button>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/lincolor_dbdbdb"
+                />
+
+            <Button
+                android:id="@+id/digitkeypad_6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bt_home_bg"
+                android:textColor="@color/text_color_333333"
+                android:text="6"
+                android:textSize="22sp">
+            </Button>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lincolor_dbdbdb"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_45"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/digitkeypad_7"
+                android:layout_width="80dp"
+                android:textColor="@color/text_color_333333"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bt_home_bg"
+                android:text="7"
+                android:textSize="22sp">
+            </Button>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/lincolor_dbdbdb"
+                />
+
+            <Button
+                android:id="@+id/digitkeypad_8"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bt_home_bg"
+                android:text="8"
+                android:textColor="@color/text_color_333333"
+                android:textSize="22sp">
+            </Button>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/lincolor_dbdbdb"
+                />
+
+            <Button
+                android:id="@+id/digitkeypad_9"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/text_color_333333"
+                android:layout_weight="1"
+                android:background="@drawable/bt_home_bg"
+                android:text="9"
+                android:textSize="22sp">
+            </Button>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lincolor_dbdbdb"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_height_50"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/digitkeypad_c"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bt_home_bg"
+                android:text="x"
+                android:textColor="@color/text_color_333333"
+                android:textSize="22sp">
+            </Button>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/lincolor_dbdbdb"
+                />
+
+            <Button
+                android:id="@+id/digitkeypad_0"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:textColor="@color/text_color_333333"
+                android:text="0"
+                android:textSize="22sp">
+            </Button>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/lincolor_dbdbdb"
+                />
+
+            <Button
+                android:id="@+id/digitkeypad_ok"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bt_home_bg"
+                android:text="确定"
+                android:textColor="@color/text_color_333333"
+                android:textSize="22sp">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

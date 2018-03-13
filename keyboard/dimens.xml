@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="title_height_50">50dp</dimen>
+    <dimen name="height_32">32dp</dimen>
+    <dimen name="height_45">45dp</dimen>
+</resources>
